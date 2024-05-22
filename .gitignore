@@ -1,0 +1,28 @@
+# IGNORAR A PPASTA DE CONFIGURÇÃO DO VSCODE 
+.vscode/
+
+#IGNORAR UMA PASTA CHAMADA CHAMADA "TEMPORARIA"
+#E O SEU CONTEÚDO
+temporaria/
+
+#IGNORAR SUBPASTAS
+imagens/preview/
+imagens/outrapasta/
+
+#IGNORAR UM ARQUIVO ESPECÍFICO
+pagina2.html
+
+#IGNORAR UM ARQUIVO ESPECÍFICO
+pagina3.html
+
+#NÃO IGNORAR O ARQUIVO MESMO QUE EXISTA UMA REGRA ANTERIOR
+!pagina3.html
+
+#NÃO IGNORAR O ARQUIVO MESMO QUE EXISTA UMA REGRA ANTERIOR
+!imagens/preview/logomarca.png
+
+#IGNORAR ARQUIVOS QUE TERMINEM COM A EXTENSÃO .test --> aula.test
+*.test
+
+#IGNORAR ARQUIVOS .pdf DENTRO DA PASTA detalhes/relatorios
+detalhes/relatorios/*.pdf
